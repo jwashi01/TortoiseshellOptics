@@ -1,0 +1,187 @@
+html {
+  font-size:18px;
+  line-height: 1.4rem;
+  font-family: "Helvetica", "Time New Roman", serif;
+}
+
+                        /* Header Section */
+      /* Header Section Contains site logo, company name, site navigation, tagline */
+
+header {
+  height:31rem;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-5/tortoiseshell-optics/resources/images/glasses-bg.png");
+  background-size:cover;
+  background-position:center;
+  background-color: cadetblue;
+}
+
+.header {
+  width:85%;
+  margin-left:5rem;
+  margin-right:5rem;
+}
+
+                /* Site Logo and Company Name */
+.header1 {
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-size:6rem;
+    background-color:cadetblue;
+    margin-top:1rem;
+}
+
+.logo {
+  display:flex;
+  align-items:center;
+  color:white;
+}
+
+.logowhite {
+  padding-right:1rem;
+  padding-left:2rem;
+  height:1.5rem;
+}
+
+                /*Site Navigation */
+.navigation li {
+  display:inline-block;
+  list-style-type: none;
+  font-size:1rem;
+  margin-top:1rem;
+  margin-bottom:1rem;
+  color:white;
+  padding-right:2rem;
+}
+
+    /* Site Navigation used for Tablets and phones not displaid on desktop */
+.mobile-navcontainer {
+  display:none;
+}
+
+                /* Tag Line */
+.DontJustLookSee {
+  display:flex;
+  justify-content:flex-end;
+  margin-top:10rem;
+  line-height: 1.2rem;
+}
+
+.DontLookSee {
+  background-color:white;
+  padding-right:5rem;
+  padding-left:5rem;
+  padding-top:1.5rem;
+  padding-bottom:1.5rem;
+  font-size:2rem;
+}
+
+              /* Main Section */
+
+
+
+.icons {
+  display:flex;
+  justify-content:center;
+  height:8rem;
+  line-height:0rem;
+  margin:0 auto;
+  padding-top:3rem;
+}
+
+.papericon {
+  width:3.5rem;
+  margin-bottom:1rem;
+}
+
+.rulericon {
+  width:5rem;
+  margin-bottom:2.8rem;
+}
+
+.truckicon {
+  width:5rem;
+  margin-bottom:2.35rem;
+}
+
+.Examssection {
+  text-align:center;
+  padding-right:6rem;
+}
+
+.Fittingssection {
+  text-align:center;
+  padding-right:6rem;
+}
+
+.Deliveryssection {
+  text-align:center;
+}
+
+.PhhilosopyAppointments {
+  display:flex;
+  justify-content:center;
+  margin-top:3rem;
+}
+
+.PHILOSOPHY {
+  width:10rem;
+  font-weight:bold;
+  font-size:1rem;
+  background-color:cadetblue;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  padding-left:1.25rem;
+  padding-right:4rem;
+}
+
+.PHILOSOPHYsection {
+  width:35%;
+  margin-right:5rem;
+}
+
+/*
+.PHILOSOPHYcontent {
+  width:35%;
+}*/
+
+.APPOINTMENTS {
+  width:10rem;
+  font-weight:bold;
+  font-size:1rem;
+  background-color:cadetblue;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  padding-left:1.25rem;
+  padding-right:4rem;
+}
+
+/*
+.APPOINTMENTScontent {
+  width:35%;
+}*/
+
+.APPOINTMENTSsection {
+  width:35%;
+}
+
+    /* Footer Section */
+
+.logoblack {
+  display:flex;
+  align-items:center;
+  justify-content: flex-start;
+  width:85%;
+  margin-left:5rem;
+  margin-right:5rem;
+  background-color:azure;
+  height:8rem;
+  margin-top:5rem;
+}
+
+.logoblackimage {
+  padding-right:1rem;
+  padding-left:2rem;
+  height:1.5rem;
+  margin-left:4rem;
+}
