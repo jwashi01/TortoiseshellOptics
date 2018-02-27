@@ -492,7 +492,7 @@ header {
 width:100%;
 display:flex;
 justify-content:flex-end;
-margin-top:6rem;
+margin-top:9rem;
 line-height: 1.2rem;
 }
 
@@ -571,14 +571,46 @@ margin:0rem;
 }
 
 .PHILOSOPHY {
-  display:block;
+  display:flex;
+  aling-items:center;
+  justify-content: center;
+  width:auto;
+  margin:0 auto;
+  padding:0.5rem 0rem;
+  text-align:center;
+  background-color: cadetblue;
 }
 
+.PHILOSOPHYcontent {
+  margin-top:1rem;
+}
+.APPOINTMENTSsection {
+  display:block;
+  width:100%;
+  margin:0 auto;
+  padding-top:4rem;
+}
+
+.APPOINTMENTS {
+  display:flex;
+  aling-items:center;
+  justify-content: center;
+  width:auto;
+  margin:0 auto;
+  padding:0.5rem 0rem;
+  text-align:center;
+  background-color: cadetblue;
+}
+
+.APPOINTMENTScontent {
+  margin-top:1rem;
+}
 
 /* Footer Section */
 
 footer {
   width:100%;
+  margin-top:14rem;
 }
 
 .logoblack {
@@ -587,6 +619,11 @@ footer {
   justify-content:center;
   width:100%;
   margin:0rem;
+  padding:0rem;
+}
+
+.logoblackimage {
+  margin:0 auto;
   padding:0rem;
 }
 
